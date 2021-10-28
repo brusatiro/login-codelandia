@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Codelândia</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="main_content">
+        <section class="section_img">
+            <img src="./image/image.svg" alt="Imagem vetorial" class="img">
+        </section>
+        <section class="section_login">
+            <form action="" method="post" id="login" class="login_form">
+                <h2>Bem-vindo de volta</h2>
+                <h1>Faça login na sua conta </h1>
+                <div class="div_component">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" class="element" placeholder="Ex: codelandia@gmail.com" required>
+                </div>
+                <div class="div_component">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" class="component" placeholder="Ex: 12345" required>
+                </div>
+                <div class="div_remember">
+                    <div>
+                        <input type="checkbox" name="remember" id="remember">
+                        <label for="remember">Lembre de mim</label>
+                    </div>
+                    <div>
+                        <a href="" class="link">Esqueceu sua senha?</a>
+                    </div>
+                </div>
+                <div class="div_component">
+                    <button type="submit" class="btn_singin">Entrar</button>
+                </div>
+                <div class="div_component">
+                    <button type="submit" class="btn_google"><i class="fab fa-google" id="icon"></i>Ou faça login com o
+                        Google</button>
+                </div>
+            </form>
+            <div class="div_cadastre">
+                <p>Não tem uma conta? <a href="" class="link">Cadastre-se</a></p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
